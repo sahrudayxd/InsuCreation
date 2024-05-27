@@ -14,16 +14,25 @@
   }
 }
 
+@media (min-width: 1090px) {
+  .footer {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+
 .footer p {
   font-family: "Mulish", sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
   max-width: 280px;
+  line-height: 22px;
+  cursor: pointer;
 }
 
 .footer-des {
-  margin: 16px 24px 16px 0;
+  margin: 24px 24px 16px 0;
 }
 
 @media (min-width: 400px) {
@@ -42,7 +51,7 @@
 
 .links,
 .school-hours {
-  margin: 16px 0;
+  margin: 24px 0;
   margin-right: 36px;
 }
 
@@ -96,6 +105,12 @@
   }
 }
 
+@media (min-width: 1090px) {
+  .footer-bottom-section {
+    padding: 3% 6%;
+  }
+}
+
 .footer-bottom-section p {
   font-family: "Mulish", sans-serif;
   font-size: 14px;
@@ -103,6 +118,7 @@
   color: #ffffff;
   text-align: center;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -129,6 +145,13 @@
     padding: 36px;
   }
 }
+
+@media (min-width: 1090px) {
+  .subscribe {
+    width: calc(100% - 12%);
+  }
+}
+
 @media (min-width: 768px) {
   .subscribe-width-large {
     width: 50%;

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+
 import "./index.css";
 
 const dummyQuestions = [
@@ -30,9 +32,7 @@ class DesignedBy extends Component {
   };
 
   handleClick = (id) => {
-    this.setState((prevState) => ({
-      activeQuestionId: prevState.activeQuestionId === id ? null : id,
-    }));
+    this.setState({ activeQuestionId: id });
   };
 
   render() {
@@ -48,20 +48,28 @@ class DesignedBy extends Component {
           <h1 className="designed-by-title">
             Designed & Worked By The Latest Partners
           </h1>
+
           <div>
             {dummyQuestions.map((questionDetails) => {
               const { id, question, answer } = questionDetails;
+              const isActive = activeQuestionId === id;
+
               return (
                 <div key={id} onMouseEnter={() => this.handleMouseEnter(id)}>
-                  <button
-                    className="question-button"
+                  <div
+                    className="question"
                     onClick={() => this.handleClick(id)}
                   >
-                    {question}
-                  </button>
-                  {activeQuestionId === id && (
-                    <p className="answer">{answer}</p>
-                  )}
+                    <span>{question}</span>
+                    <span className="icon">
+                      {isActive ? (
+                        <FaChevronUp size={24} />
+                      ) : (
+                        <FaChevronDown size={24} />
+                      )}
+                    </span>
+                  </div>
+                  {isActive && <p className="answer">{answer}</p>}
                 </div>
               );
             })}

@@ -9,6 +9,8 @@ const Banner = (props) => {
         alt="bannerImg"
         className="banner-img"
       />
+
+      <div className="white-circle-bg"></div>
       <h1 className="banner-path-name">{pathNameText}</h1>
     </div>
   );
