@@ -138,3 +138,10 @@
   font-size: 12px;
   font-weight: 500;
 }
+
+.contact-us-map {
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 24px;
+  max-width: 550px;
+}

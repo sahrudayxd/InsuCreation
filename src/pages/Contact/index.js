@@ -61,7 +61,7 @@ const renderContactDetails = () => (
     <img
       src="https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/map"
       alt="map"
-      className="map-image"
+      className="contact-us-map"
     />
   </div>
 );
