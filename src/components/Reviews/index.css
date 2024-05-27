@@ -31,8 +31,8 @@
   margin: 8px 0px;
 }
 
-.review-slider {
-  display: flex;
+.swiper-slider {
+  display: flex !important;
   align-items: center;
   justify-content: center;
 }

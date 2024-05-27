@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { FaStar } from "react-icons/fa6";
 
 const renderReviewSwiper = () => (
-  <SwiperSlide className="review-slider">
+  <SwiperSlide className="swiper-slider">
     <div className="review">
       <p>
         Per sed, mattis. Integer viverra euismod maecenas incidunt, phasellus

@@ -69,7 +69,7 @@ const subscribeNewsletter = () => (
   <div className="subscribe">
     <div className="subscribe-width-large">
       <h1>Subscribe Our Newsletter!</h1>
-      <div className="h1-bottom-line"></div>
+      <div className="subscribe-bottom-line"></div>
       <p>
         Elementum ex similique sollicitudin eveniet sem eveniet proin, iste
         euismod! Quia! Fugiat molestie leo placerat, tenetur.
