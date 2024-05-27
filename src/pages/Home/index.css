@@ -100,3 +100,24 @@
   background-color: #000;
   color: #fff;
 }
+
+@media (min-width: 1092px) {
+  .triangle-bg-img {
+    background-image: url("https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/light-green-triangle-bg");
+    background-size: 80%;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+}
+
+.my-decor-img {
+  width: 100%;
+  padding: 0px 24px;
+}
+
+@media (min-width: 1092px) {
+  .my-decor-img {
+    width: 88%;
+    margin: 0px 6%;
+  }
+}

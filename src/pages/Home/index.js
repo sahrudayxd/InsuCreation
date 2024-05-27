@@ -1,5 +1,7 @@
 import CommonLayout from "../../components/CommonLayout";
 
+import EngagingAndSpacious from "../../components/EngagingAndSpacious";
+import EasyPerfectSolution from "../../components/EasyPerfectSolution";
 import AppScreenshots from "../../components/AppScreenshots";
 import HowAppWork from "../../components/HowAppWork";
 import DesignedBy from "../../components/DesignedBy";
@@ -31,6 +33,17 @@ const Home = () => {
         </div>
       </div>
       <div className="hero-content-small">{heroContent()}</div>
+
+      <div className="triangle-bg-img">
+        <EngagingAndSpacious />
+        <img
+          className="my-decor-img"
+          src="https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/Decor/my-decor"
+          alt="my-decor"
+        />
+        <EasyPerfectSolution />
+      </div>
+
       <HowAppWork />
       <DesignedBy />
       <AppScreenshots />

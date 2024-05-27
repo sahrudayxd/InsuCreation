@@ -1,3 +1,5 @@
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+
 import "./index.css";
 
 const EngagingAndSpacious = () => (
@@ -18,7 +20,54 @@ const EngagingAndSpacious = () => (
 
     <div className="cards">
       <div className="card">
-        <div className="card-img-container"></div>
+        <div className="card-img-container">
+          <img
+            src="https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/pc"
+            alt="pc"
+            className="card-img"
+          />
+        </div>
+        <h1 className="card-title">Perfect UI Design</h1>
+        <p className="card-des">
+          Praesent ac vehicula sapien. Sed sollicitudin molestie consequat. Ut
+          vitae ante ut mi vehicula vulputate.
+        </p>
+        <BsFillArrowRightCircleFill color="#000000" size={36} />
+        <div className="card-border"></div>
+      </div>
+
+      <div className="card bg-green">
+        <div className="card-img-container">
+          <img
+            src="https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/pc"
+            alt="pc"
+            className="card-img"
+          />
+        </div>
+        <h1 className="card-title">Perfect UI Design</h1>
+        <p className="card-des">
+          Praesent ac vehicula sapien. Sed sollicitudin molestie consequat. Ut
+          vitae ante ut mi vehicula vulputate.
+        </p>
+        <BsFillArrowRightCircleFill color="#000000" size={36} />
+        <div className="card-border"></div>
+      </div>
+
+      <div className="card">
+        <div className="card-img-container">
+          <img
+            src="https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/pc"
+            alt="pc"
+            className="card-img"
+          />
+        </div>
+        <h1 className="card-title">Perfect UI Design</h1>
+        <p className="card-des">
+          Praesent ac vehicula sapien. Sed sollicitudin molestie consequat. Ut
+          vitae ante ut mi vehicula vulputate.
+        </p>
+        <BsFillArrowRightCircleFill color="#000000" size={36} />
+        <div className="card-border"></div>
       </div>
     </div>
   </div>

@@ -1,0 +1,71 @@
+.easy-perfect-solution {
+  background-image: url("https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/light-green-triangle-bg");
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding: 174px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -150px;
+}
+
+@media (min-width: 768px) {
+  .easy-perfect-solution {
+    padding: 4% 6%;
+    margin: 0px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1092px) {
+  .easy-perfect-solution {
+    background-image: none;
+  }
+}
+
+.easy-perfect-solution-img {
+  width: 100%;
+  max-width: 450px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .easy-perfect-solution-img {
+    width: 48%;
+    max-width: 650px;
+    margin-right: 24px;
+  }
+}
+
+.easy-perfect-solution-title {
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 320px;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .easy-perfect-solution-title {
+    font-size: 30px;
+    max-width: 390px;
+  }
+}
+
+.easy-perfect-solution p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 24px;
+  color: #6c6c6c;
+}
+
+.read-more-button {
+  font-size: 18px;
+  width: 198px;
+  height: 60px;
+  border-radius: 36px;
+  background-color: #000;
+  color: #fff;
+}
